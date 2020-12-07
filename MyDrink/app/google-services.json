@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "700236503278",
+    "firebase_url": "https://mydrink-f30f9.firebaseio.com",
+    "project_id": "mydrink-f30f9",
+    "storage_bucket": "mydrink-f30f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700236503278:android:f9b5d75bb6c7172cd43bff",
+        "android_client_info": {
+          "package_name": "com.example.mydrink"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700236503278-3nrj9s8v64u4fcfsn592h8j94bsiamn7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mydrink",
+            "certificate_hash": "faebcaf27e49353f03cee6a003eb669edd918e9b"
+          }
+        },
+        {
+          "client_id": "700236503278-gv91sdvn838h794f1t0j114it7ececrr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcIeGehfXzveyci0VTe6G-AGAtIxhnI0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700236503278-gv91sdvn838h794f1t0j114it7ececrr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

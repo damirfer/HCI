@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    >
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginRight="16dp"
+        android:background="#00FFFFFF"
+        android:src="@drawable/ic_local_bar_black_24dp"
+        android:tint="#7A7A7A">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:id="@+id/drinkName"
+        android:layout_toRightOf="@id/img">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/drinkAbout"
+        android:layout_below="@id/drinkName"
+        android:layout_toRightOf="@id/img"
+        >
+
+    </TextView>
+
+</RelativeLayout>

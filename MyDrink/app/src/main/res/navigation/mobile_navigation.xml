@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_popular">
+
+    <fragment
+        android:id="@+id/nav_popular"
+        android:name="com.example.mydrink.ui.popular.PopularFragment"
+        android:label="@string/menu_popular"
+        tools:layout="@layout/fragment_popular">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_latest"
+        android:name="com.example.mydrink.ui.latest.LatestFragment"
+        android:label="@string/menu_latest"
+        tools:layout="@layout/fragment_latest" />
+
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.example.mydrink.ui.search.SearchFragment"
+        android:label="@string/menu_search"
+        tools:layout="@layout/fragment_search" />
+</navigation>
